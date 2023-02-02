@@ -197,7 +197,7 @@ border: 3px solid var(--red);  /* creates padding around scroll thumb */
         rgba(0,0,0,0.5), 
         rgba(0,0,0,0.1)
         ), 
-        url('./img/supplementary-6.jpg');  
+        url('./img/supplementary-6b.webp');  
             /* add to Anki , 5*s - url function */
     height: calc(100vh - 50px);  
             /* add to Anki , full screen minus 100px*/
