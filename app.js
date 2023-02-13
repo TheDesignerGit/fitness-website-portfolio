@@ -11,6 +11,7 @@ const mobileMenu = () => {
 }
 
 menu.addEventListener('click', mobileMenu)
+menuLinks.addEventListener('click', mobileMenu)
 
 
 // Animations
@@ -84,3 +85,13 @@ gsap.from(".animate-email", {
     stagger: 0.1,
     delay: 0.2,
 })
+
+
+//  ========  Show scroll up .:.  ==========
+const scrollTop = () => {
+    // console.log('scroll', window.scrollY)
+    const scrollUp = document.querySelector('#scroll-up')
+
+    if (window.scrollY >= 600) scrollUp.classList.add('show-scroll'); else scrollUp.classList.remove('show-scroll')
+}
+window.addEventListener('scroll', scrollTop)
