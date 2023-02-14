@@ -491,6 +491,7 @@ a.button:hover {
             /* add to Anki, 5*s - responsive images*/
     border-radius: 10px;
     object-fit: cover;
+    min-width: 200px;
 }
 
 .team__text:nth-child(1) {
@@ -733,7 +734,11 @@ form {
 
 
 /* ======== Scroll up ========= .:. */
-
+/* .scroll__container {
+    height: 200px;
+    width: 100%;
+    max-width: 900px;
+} */
 .scrollup {
     color: white;
     opacity: 0.7;
