@@ -462,6 +462,8 @@ a.button:hover {
     justify-content: center;
     min-width: 200px;
     min-height: 296px;
+    width: 100%;
+    height: auto;
 }
 
 .team__text {
@@ -493,6 +495,8 @@ a.button:hover {
             /* add to Anki, 5*s - responsive images*/
     border-radius: 10px;
     object-fit: cover;
+    width: 100%;
+    height: auto;
     min-width: 200px;
     min-height: 296px;
 }
@@ -534,7 +538,7 @@ a.button:hover {
     padding-top: 2rem;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 425px) {
     .team__wrapper {
         grid-template-columns: 1fr;
         grid-template-rows: auto;
