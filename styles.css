@@ -494,6 +494,7 @@ a.button:hover {
     border-radius: 10px;
     object-fit: cover;
     min-width: 200px;
+    min-height: 296px;
 }
 
 .team__text:nth-child(1) {
