@@ -460,6 +460,7 @@ a.button:hover {
     position: relative;
     display: flex;
     justify-content: center;
+    min-width: 200px;
 }
 
 .team__text {
