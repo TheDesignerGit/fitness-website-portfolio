@@ -461,6 +461,7 @@ a.button:hover {
     display: flex;
     justify-content: center;
     min-width: 200px;
+    min-height: 296px;
 }
 
 .team__text {
